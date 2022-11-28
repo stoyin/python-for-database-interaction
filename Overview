@@ -10,6 +10,11 @@ Of course from the above introduction you need the following on your computer.
 python3 with pymsql installed (you can use the pip command "pip install pymsql" from the 
 command prompt). You will also need MSQL database sever installed and running on your 
 cpmputer so you can see and experince the interaction between both environments.
+Make sure you always check your MSQL environment after running each python program
+to see corresponding changes.
+
+Start with the files py_create_database.py and py_create_tables.py as they help you create 
+a database and table in MSQL environment using pyhton.
 
 pymsql (stage 1 - 4 ) examples explore python with basic MSQL queries, such as create, select, 
 select with "where clause",insert, update.
@@ -17,6 +22,6 @@ pymsql(class 1) deals with the central purpose of pymsql which is to build a hel
 class to handle functions like select, insert, update and delete in an abstract format.
 pymsql (class 2) has some modifications with additionl methods in the helper class.
 
-Consequently in the future there is an intention to link this class with an application 
+Consequently in the future there is an intention to link this class with another application 
 using the concept of "inheritance" in Object Oriented Programming and perhaps wrap it 
 up with a web UI application using frameworks like flask or django. 
